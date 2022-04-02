@@ -3,7 +3,7 @@
 @tailwind components;
 
 :root {
-  @apply text-[15px];
+  font-size: 15px;
 }
 
 html * {

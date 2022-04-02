@@ -11,7 +11,10 @@ const RatingScores = () => {
             key={`rating-score-${ratingNum}`}
             extraClassName="cursor-pointer"
           >
-            <h1 className="text-medium-grey font-bold text-sm absolute-center">
+            <h1
+              className="text-medium-grey font-bold
+                         text-sm absolute-center"
+            >
               {ratingNum}
             </h1>
           </Circle>
