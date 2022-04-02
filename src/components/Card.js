@@ -7,7 +7,7 @@ const Card = () => {
   return (
     <motion.div
       className="w-[21rem] bg-dark-blue
-                rounded-2xl p-8 grid gap-y-6
+                rounded-2xl p-8 space-y-5
                 bg-gradient-to-b from-gray-800 to-gray-900"
     >
       <Star />

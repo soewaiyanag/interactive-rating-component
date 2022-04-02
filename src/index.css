@@ -2,6 +2,10 @@
 @tailwind utilities;
 @tailwind components;
 
+:root {
+  @apply text-[15px];
+}
+
 html * {
   font-family: "Overpass", sans-serif;
 }
