@@ -4,7 +4,7 @@ import Circle from "./Circle";
 const Star = () => {
   return (
     <Circle>
-      <img src={starIcon} alt="star icon" className="w-3.5 absolute-center" />
+      <img src={starIcon} alt="star icon" className="w-3 absolute-center" />
     </Circle>
   );
 };

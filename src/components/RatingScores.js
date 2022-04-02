@@ -1,4 +1,4 @@
-import RatingScore from "./Circle";
+import Circle from "./Circle";
 
 const ratingNums = [1, 2, 3, 4, 5];
 
@@ -7,11 +7,14 @@ const RatingScores = () => {
     <div className="flex justify-between w-full">
       {ratingNums.map((ratingNum) => {
         return (
-          <RatingScore key={`rating-score-${ratingNum}`}>
-            <h1 className="text-medium-grey font-medium text-sm absolute-center">
+          <Circle
+            key={`rating-score-${ratingNum}`}
+            extraClassName="cursor-pointer"
+          >
+            <h1 className="text-medium-grey font-bold text-sm absolute-center">
               {ratingNum}
             </h1>
-          </RatingScore>
+          </Circle>
         );
       })}
     </div>
