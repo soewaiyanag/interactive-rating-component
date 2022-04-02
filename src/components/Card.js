@@ -1,20 +1,20 @@
 import { motion } from "framer-motion";
-import Star from "./Star";
-import Texts from "./Texts";
-import RatingScores from "./RatingScores";
-import SubmitButton from "./SubmitButton";
+import { useState } from "react";
+import CardFront from "./CardFront";
 
 const Card = () => {
+  const [ratingScore, setRatingScore] = useState(null);
   return (
     <motion.div
-      className="w-[21rem] bg-dark-blue
-                rounded-2xl p-8 space-y-6 shadow-lg
+      animate={{
+        rotateY: "180deg",
+      }}
+      transition={{ ease: "anticipate", type: "spring", duration: 2 }}
+      className="w-[21rem] aspect-square bg-dark-blue
+                rounded-2xl p-8 space-y-6 shadow-lg style
                 bg-gradient-to-b from-gray-800 to-gray-900"
     >
-      <Star />
-      <Texts />
-      <RatingScores />
-      <SubmitButton />
+      <CardFront ratingScore={ratingScore} setRatingScore={setRatingScore} />
     </motion.div>
   );
 };
