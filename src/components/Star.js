@@ -3,7 +3,7 @@ import Circle from "./Circle";
 
 const Star = () => {
   return (
-    <Circle>
+    <Circle extraClassName="bg-opacity-10">
       <img src={starIcon} alt="star icon" className="w-3 absolute-center" />
     </Circle>
   );
