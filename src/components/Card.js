@@ -8,8 +8,8 @@ const Card = () => {
   const { isSubmitted } = useContext(SubmitContext);
   return (
     <motion.div
-      className="w-[21rem] aspect-square bg-dark-blue
-                rounded-2xl p-6 space-y-6 shadow-lg style
+      className="w-80 aspect-square bg-dark-blue
+                rounded-2xl p-6 shadow-lg
                 bg-gradient-to-b from-gray-800 to-gray-900"
     >
       {!isSubmitted ? <CardFront /> : <CardBack />}

@@ -5,12 +5,12 @@ import SubmitButton from "./SubmitButton";
 
 const CardFront = () => {
   return (
-    <>
+    <div className="space-y-6">
       <Star />
       <CardFrontTexts />
       <RatingScores />
       <SubmitButton />
-    </>
+    </div>
   );
 };
 
