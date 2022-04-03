@@ -1,4 +1,4 @@
-const Texts = () => {
+const CardFrontTexts = () => {
   return (
     <div className="space-y-1.5">
       <h1 className="text-2xl font-semibold text-white tracking-wide">
@@ -12,4 +12,4 @@ const Texts = () => {
   );
 };
 
-export default Texts;
+export default CardFrontTexts;

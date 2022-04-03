@@ -1,5 +1,5 @@
 import Star from "./Star";
-import Texts from "./Texts";
+import CardFrontTexts from "./CardFrontTexts";
 import RatingScores from "./RatingScores";
 import SubmitButton from "./SubmitButton";
 
@@ -7,7 +7,7 @@ const CardFront = () => {
   return (
     <>
       <Star />
-      <Texts />
+      <CardFrontTexts />
       <RatingScores />
       <SubmitButton />
     </>
