@@ -18,7 +18,7 @@ const RatingScores = () => {
           <Circle
             key={`rating-score-${ratingNum}`}
             extraClassName={clsx(
-              "cursor-pointer",
+              "cursor-pointer hover:bg-orange-500 hover:text-white",
               ratingNum === ratingScore ? activeStyle : deafultStyle
             )}
             onClickHandler={() => {
