@@ -7,7 +7,7 @@ import clsx from "clsx";
 const ratingNums = [1, 2, 3, 4, 5];
 
 const deafultStyle = "bg-opacity-10 text-medium-grey";
-const activeStyle = "text-white";
+const activeStyle = "text-white hover:bg-light-grey";
 
 const RatingScores = () => {
   const { ratingScore, setRatingScore } = useContext(RatingScoreContext);
