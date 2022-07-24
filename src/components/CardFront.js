@@ -11,6 +11,7 @@ const CardFront = ({ extraClassName }) => {
       layout
       initial={{ y: -100, opacity: 0 }}
       animate={{ y: 0, opacity: 1 }}
+      role="application"
       className={clsx("space-y-6", extraClassName)}
     >
       <Star />
